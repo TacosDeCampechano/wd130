@@ -1,0 +1,19 @@
+:root{
+--paragraph-color-on-white: #000000;
+--heading-font: "28 Days Later";
+
+}
+h1{
+    font-family: var(--heading-font);
+    color: var(--paragraph-color-on-white);
+}
+
+h2{
+    font-family:'Among Us';
+    color: #635B5A;
+}
+.img1, .bolas, .racista{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
