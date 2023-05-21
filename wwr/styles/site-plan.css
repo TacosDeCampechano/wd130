@@ -2,7 +2,6 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -31,11 +30,13 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 0;
   font-size: 18px;
   text-align: center;
+  border-radius: 5px;
 }
 img {
   display: block;
@@ -43,11 +44,13 @@ img {
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #6C06F4;
+  margin-top: 50px;
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
