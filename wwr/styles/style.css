@@ -29,6 +29,7 @@ div {
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: rgba(20,30,13, .7);
 }
 
 nav {
@@ -74,6 +75,11 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+}
+
+nav a:hover{
+    background-color: black;
+    color: #d9c2a3;
 }
 
 main section img {
@@ -131,6 +137,7 @@ main section img {
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
+    height: 725px;
 }
 
 .mountains {
@@ -165,6 +172,14 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
 
 main{
